@@ -93,7 +93,7 @@ async def sesli_komut(update, context):
     #        await update.message.reply_text("Maalesef komutunuzu anlayamadım ):")
     
 if __name__ == "__main__":
-    application = Application.builder().token("6754450885:AAHilfSkSJBqvigd7GOc2tFdhylRlJVpOSs").build()
+    application = Application.builder().token("<token>").build()
     
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("yardim", yardim))
